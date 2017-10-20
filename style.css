@@ -1,0 +1,61 @@
+div {
+  position: center;
+}
+
+.fa {
+  color:black;
+  font-size: 50px;
+}
+
+div:hover > i {
+  color:grey;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.avion, .diamante, .corazon, .cafe, .comida {
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  background: #F0F0F0;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding-top: 30px;
+  box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+  }
+
+.avion:hover, .diamante:hover, .corazon:hover, .cafe:hover, .comida:hover{
+  width: 220px;
+  height: 370px;
+  text-align: center;
+  color: gray;
+  float: left;
+  cursor: pointer;
+  background: #FBFBFB;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding-top: 30px;
+  box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 0.5)
+}
+
+h2, h5 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h3, h5, p {
+  margin: 10%;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+}
+
+div:hover > p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
+  cursor: pointer;
+}
